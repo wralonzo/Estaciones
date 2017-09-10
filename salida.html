@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>salida</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+
+	<body>
+		<div class="form">
+			<form action="salida_guardar.php" method="POST">
+				<h1>SALIDA</h1>
+				<label form="codigo"></label>
+				<input type="text" name="codigo" placeholder="codigo salida">
+				<label form="nombre"></label>
+				<input type="text" name="nombre" placeholder="nombre salida">
+				<label form="tipo"></label>
+				<input type="text" name="tipo" placeholder="tipo">
+				<label form="ubicacion"></label>
+				<input type="text" name="ubicacion" placeholder="ubicacion geografica">
+				<h4>Tension</h4>
+				<label for="tension"></label>
+				<select id="tension" name="tension">
+					<option value="" selected="selected">Tension</option>
+					<option value="1.5"> 1.5 kwts</option>
+					<option value="2.5"> 2.5 kwts</option>
+					<option value="5.5"> 5.5 kwts</option>
+				</select>
+				<br><br>
+				<button>Enviar</button>
+			</form>
+		</div>
+	</body>
+</html>

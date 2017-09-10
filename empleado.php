@@ -90,4 +90,4 @@ $resempleado=$conexion->query($empleado);
 		}
 		?>
 	</section>
-</html># Estaciones
+</html>
